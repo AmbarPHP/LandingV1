@@ -1,7 +1,7 @@
 <template>
   <section id="Nav">
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-dark bg-blue navbar-expand-lg">
+      <a class="navbar-brand" href="#">Manglar</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -47,4 +47,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+.bg-blue {
+  background-color: #164685;
+}
 </style>

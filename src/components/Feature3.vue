@@ -3,7 +3,7 @@
   <section id="Feature3">
     <div class="container">
       <div class="row">
-        <div class="card" style="width:50%">
+        <div class="card col-xs-12 col-md-6 px-1" style="width:50%">
           <img
             class="card-img-top"
             src="../assets/images/haden.jpg"
@@ -60,14 +60,30 @@ export default {
   color: #fff !important;
 }
 
-#feature {
+#Feature3 {
   padding-top: 20px;
-  background-color: #164685;
-  height: 400px;
+  .card {
+    background-color: #164685;
+    text-decoration-color: #fff;
+    //opacity: 0.3;
+    ul > li,
+    h4,
+    h2,
+    p {
+      text-align: center;
+      background-color: #164685;
+      color: #fff;
+      margin: 0px;
+      border: 0px;
+      font-size: 1.2em;
+    }
+  }
+
+  height: 800px;
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+
   h2 {
     padding-top: 40px;
   }

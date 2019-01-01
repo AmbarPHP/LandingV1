@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-    <div class="col-xs-12 col-md-12 px-1">
-      <img src="assets/logo.jpg" alt="Lights" style="width:100%">
-    </div>
-
     <h1>{{ msg }}</h1>
 
     <div class="container">
