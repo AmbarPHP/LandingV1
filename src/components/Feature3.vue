@@ -1,6 +1,6 @@
 <template>
   <!-- feature -->
-  <section id="Feature">
+  <section id="Feature3">
     <div class="container">
       <div class="row">
         <div class="card" style="width:50%">
@@ -47,7 +47,7 @@
 
 <script>
 export default {
-  name: "Feature",
+  name: "Feature3",
   props: {
     msg: String
   }

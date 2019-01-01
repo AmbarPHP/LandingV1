@@ -19,7 +19,7 @@
       </div>
       <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Feature></Feature>
+          <Feature3></Feature3>
         </div>
       </div>
       <div class="row">
@@ -40,7 +40,7 @@
 import Footer from "./components/Footer.vue";
 import Nav from "./components/Nav.vue";
 import Contact from "./components/Contact.vue";
-import Feature from "./components/Feature.vue";
+import Feature3 from "./components/Feature3.vue";
 import Gallery from "./components/Gallery.vue";
 
 export default {
@@ -49,7 +49,7 @@ export default {
     Footer,
     Nav,
     Contact,
-    Feature,
+    Feature3,
     Gallery
   },
   data() {
