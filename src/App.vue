@@ -5,12 +5,12 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Nav></Nav>
+          <Gallery3></Gallery3>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Gallery3></Gallery3>
+          <Nav></Nav>
         </div>
       </div>
       <div class="row">
