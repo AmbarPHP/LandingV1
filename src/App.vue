@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="assets/logo.jpeg">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
 
@@ -8,6 +8,16 @@
       <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
           <Nav></Nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
+          <Gallery></Gallery>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
+          <Feature></Feature>
         </div>
       </div>
       <div class="row">
@@ -28,13 +38,17 @@
 import Footer from "./components/Footer.vue";
 import Nav from "./components/Nav.vue";
 import Contact from "./components/Contact.vue";
+import Feature from "./components/Feature.vue";
+import Gallery from "./components/Gallery.vue";
 
 export default {
   name: "app",
   components: {
     Footer,
     Nav,
-    Contact
+    Contact,
+    Feature,
+    Gallery
   },
   data() {
     return {
