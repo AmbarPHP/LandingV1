@@ -12,6 +12,11 @@
       </div>
       <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
+          <Contact></Contact>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
           <Footer></Footer>
         </div>
       </div>
@@ -22,12 +27,14 @@
 <script>
 import Footer from "./components/Footer.vue";
 import Nav from "./components/Nav.vue";
+import Contact from "./components/Contact.vue";
 
 export default {
   name: "app",
   components: {
     Footer,
-    Nav
+    Nav,
+    Contact
   },
   data() {
     return {
