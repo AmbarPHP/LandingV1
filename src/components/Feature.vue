@@ -3,31 +3,42 @@
   <section id="Feature">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-md-6 px-1">
-          <h2 class="text-uppercase">Nuestras Politicas</h2>
-          <ul>
-            <li>Calidad</li>
-            <li>Atencion</li>
-            <li>Responsabilidad</li>
-            <li>Iniciativa</li>
-            <li>Creatividad</li>
-            <li>Higiene</li>
-          </ul>
+        <div class="card" style="width:50%">
+          <img
+            class="card-img-top"
+            src="../assets/images/haden.jpg"
+            alt="Card image"
+            style="width:100%"
+          >
+          <div class="card-body">
+            <h4 class="card-title">Certificaciones de Procesos</h4>
+            <p>
+              Trabajamos bajo la norma de calidad 9000 y
+              proporcionamos a nuestros clientes un producto a la medida
+            </p>
+            <a href="#" class="btn btn-primary">Ver mas</a>
+          </div>
         </div>
-        <div class="col-xs-12 col-md-6 px-1">
-          <img class="img-responsive fix" src="../assets/images/haden.jpg" alt="Feature img">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-md-6 px-1">
-          <img class="img-responsive fix" src="../assets/images/haden.jpg" alt="Feature img">
-        </div>
-        <div class="col-xs-12 col-md-6 px-1">
-          <h2 class="text-uppercase">Certificaciones de Procesos</h2>
-          <p>
-            Trabajamos bajo la norma de calidad 9000 y
-            proporcionamos a nuestros clientes un producto a la medida
-          </p>
+
+        <div class="card" style="width:50%">
+          <div class="card-body">
+            <h4 class="card-title">Nuestras Politicas</h4>
+            <ul class="list-group">
+              <li class="list-group-item">Calidad</li>
+              <li class="list-group-item">Atencion</li>
+              <li class="list-group-item">Responsabilidad</li>
+              <li class="list-group-item">Iniciativa</li>
+              <li class="list-group-item">Creatividad</li>
+              <li class="list-group-item">Higiene</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Ver mas</a>
+          </div>
+          <img
+            class="card-img-bottom"
+            src="../assets/images/haden.jpg"
+            alt="Card image"
+            style="width:100%"
+          >
         </div>
       </div>
     </div>
@@ -62,8 +73,8 @@ export default {
   }
 }
 img.fix {
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   align-content: center;
 }
 </style>

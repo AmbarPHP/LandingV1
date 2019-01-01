@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <img src="assets/logo.jpeg">
+    <div class="col-xs-12 col-md-12 px-1">
+      <img src="assets/logo.jpg" alt="Lights" style="width:100%">
+    </div>
+
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
 
     <div class="container">
       <div class="row">
@@ -52,7 +54,7 @@ export default {
   },
   data() {
     return {
-      msg: "Welcome to Your Vue.js App"
+      msg: "Welcome to Manglar Fruit"
     };
   }
 };
