@@ -3,6 +3,11 @@
   <section id="Feature3">
     <div class="container">
       <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-uppercase">Nosotros</h2>
+        </div>
+      </div>
+      <div class="row">
         <div class="card col-xs-12 col-md-6 px-1" style="width:50%">
           <img
             class="card-img-top"
@@ -11,7 +16,7 @@
             style="width:100%"
           >
           <div class="card-body">
-            <h4 class="card-title">Certificaciones de Procesos</h4>
+            <h2 class="card-title">Certificaciones de Procesos</h2>
             <p>
               Trabajamos bajo la norma de calidad 9000 y
               proporcionamos a nuestros clientes un producto a la medida
@@ -22,7 +27,7 @@
 
         <div class="card" style="width:50%">
           <div class="card-body">
-            <h4 class="card-title">Nuestras Politicas</h4>
+            <h2 class="card-title">Nuestras Politicas</h2>
             <ul class="list-group">
               <li class="list-group-item">Calidad</li>
               <li class="list-group-item">Atencion</li>
@@ -61,13 +66,19 @@ export default {
 }
 
 #Feature3 {
-  padding-top: 20px;
+  margin: 20px;
+  display: block;
+
+  height: 800px;
+  width: 100%;
+  top: 0;
+  left: 0;
+
   .card {
     background-color: #164685;
     text-decoration-color: #fff;
     //opacity: 0.3;
     ul > li,
-    h4,
     h2,
     p {
       text-align: center;
@@ -78,11 +89,6 @@ export default {
       font-size: 1.2em;
     }
   }
-
-  height: 800px;
-  width: 100%;
-  top: 0;
-  left: 0;
 
   h2 {
     padding-top: 40px;

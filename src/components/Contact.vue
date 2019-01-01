@@ -81,6 +81,7 @@ export default {
 #Contact {
   .container {
     padding-top: 40px;
+    margin-top: 120px;
   }
 }
 h3 {
