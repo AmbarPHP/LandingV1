@@ -1,13 +1,6 @@
 <template>
   <div id="app">
-    <h1>{{ msg }}</h1>
-
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Gallery3></Gallery3>
-        </div>
-      </div>
       <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
           <Nav></Nav>
@@ -15,17 +8,19 @@
       </div>
       <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
+          <Embed></Embed>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
           <Feature3></Feature3>
         </div>
       </div>
+
       <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Contact></Contact>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Footer></Footer>
+          <Footer2></Footer2>
         </div>
       </div>
     </div>
@@ -33,20 +28,20 @@
 </template>
 
 <script>
-import Footer from "./components/Footer.vue";
+import Footer2 from "./components/Footer2.vue";
 import Nav from "./components/Nav.vue";
 import Contact from "./components/Contact.vue";
 import Feature3 from "./components/Feature3.vue";
-import Gallery3 from "./components/Gallery3.vue";
+import Embed from "./components/Embed.vue";
 
 export default {
   name: "app",
   components: {
-    Footer,
+    Footer2,
     Nav,
     Contact,
     Feature3,
-    Gallery3
+    Embed
   },
   data() {
     return {
@@ -62,8 +57,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  background-color: #262e37;
   margin-top: 60px;
+  color: #fff;
 }
 
 h1,
