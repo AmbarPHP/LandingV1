@@ -1,9 +1,9 @@
 <template>
   <!-- Footer -->
   <section id="Footer2">
-    <div class="row">
+    <div class="row footer">
       <div class="col-lg-3 text-center">
-        <p class="tittle-footer">Manglar</p>
+        <img class="fix" src="../assets/images/logo6.png" alt="Feature img">
         <p class="content-footer">
           With our whole family originally coming to the US from Ireland,
           farming is definitely in our blood. Ultimately, having been
@@ -86,7 +86,12 @@ export default {
 #Footer2 {
   background-color: #262e37;
   color: #fff;
+  margin-left: 0px;
+  img.fix {
+    text-align: left;
+  }
 }
+
 .tittle-footer {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -114,7 +119,6 @@ export default {
 }
 h3 {
   color: #00d496;
-  margin: 40px 0 0;
 }
 ul {
   list-style-type: none;

@@ -1,7 +1,7 @@
 <template>
   <section id="Nav">
-    <nav class="navbar navbar-dark bg-blue navbar-expand-lg" position="sticky">
-      <a class="navbar-brand" href="#">Manglar</a>
+    <img class="img-responsive fix" src="../assets/images/logo6.png" alt="Feature img">
+    <nav class="navbar bg-verde navbar-expand-lg">
       <button
         class="navbar-toggler"
         type="button"
@@ -25,10 +25,10 @@
             <a class="nav-link" href="#">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link disabled" href="#">Contact</a>
           </li>
         </ul>
       </div>
@@ -47,9 +47,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.bg-blue {
-  background-color: #00d496;
-  height: 90px;
-  font-size: 24px;
+#Nav {
+  .bg-verde {
+    color: #00d496;
+    height: 90px;
+    font-size: 24px;
+  }
 }
 </style>
