@@ -44,10 +44,12 @@ export default {
   }
 };
 </script>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #Nav {
+  font-family: "Open Sans", sans-serif; //'Montserrat', sans-serif;
   .bg-verde {
     color: #00d496;
     height: 90px;

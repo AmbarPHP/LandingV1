@@ -5,11 +5,13 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 h-100 text-center text-lg-right my-auto"></div>
+        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
+          <Feature3></Feature3>
+        </div>
       </div>
       <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Feature4></Feature4>
+          <Feature2></Feature2>
         </div>
       </div>
       <!-- <div class="row">

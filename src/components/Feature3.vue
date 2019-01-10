@@ -22,7 +22,7 @@
         </div>
         <div class="card col-xs-12 col-md-6 px-1" style="width:50%">
           <div class="card-body">
-            <h2 class="title-feature">Nuestras Politicas</h2>
+            <h2 class="title-feature">NUESTRO COMPROMISO</h2>
             <ul class="list-group">
               <li class="list-group-item">Calidad</li>
               <li class="list-group-item">Atencion</li>
