@@ -3,17 +3,24 @@
     <div class="sticky">
       <Nav></Nav>
     </div>
+
     <div class="container">
-      <!-- <div class="row">
+      <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Feature2></Feature2>
+          <Gallery3></Gallery3>
         </div>
-      </div>-->
-      <!-- <div class="row">
+      </div>
+      <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Feature3></Feature3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            At accusantium laborum natus vero distinctio fugit atque velit
+            voluptatibus beatae! Aliquam praesentium placeat non maxime ab
+            provident officiis veniam tempora necessitatibus.
+          </p>
         </div>
-      </div>-->
+      </div>
+
       <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
           <Embed></Embed>
@@ -22,11 +29,6 @@
       <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
           <Gallery></Gallery>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Gallery3></Gallery3>
         </div>
       </div>
 
