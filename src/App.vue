@@ -4,24 +4,29 @@
       <Nav></Nav>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Feature3></Feature3>
-        </div>
-      </div>
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
           <Feature2></Feature2>
         </div>
-      </div>
+      </div>-->
       <!-- <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Embed></Embed>
+          <Feature3></Feature3>
         </div>
       </div>-->
       <div class="row">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
-          <Feature3></Feature3>
+          <Embed></Embed>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
+          <Gallery></Gallery>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
+          <Gallery3></Gallery3>
         </div>
       </div>
 
@@ -30,26 +35,39 @@
           <Footer2></Footer2>
         </div>
       </div>
+      <div class="row">
+        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
+          <Footer></Footer>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import Footer2 from "./components/Footer2.vue";
+import Footer from "./components/Footer.vue";
 import Nav from "./components/Nav.vue";
 import Contact from "./components/Contact.vue";
+import Feature2 from "./components/Feature2.vue";
 import Feature3 from "./components/Feature3.vue";
 import Feature4 from "./components/Feature4.vue";
 import Embed from "./components/Embed.vue";
+import Gallery from "./components/Gallery.vue";
+import Gallery3 from "./components/Gallery3.vue";
 
 export default {
   name: "app",
   components: {
     Footer2,
+    Footer,
     Nav,
     Contact,
+    Feature2,
     Feature3,
     Feature4,
+    Gallery,
+    Gallery3,
     Embed
   },
   data() {
