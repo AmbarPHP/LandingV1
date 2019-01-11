@@ -1,9 +1,6 @@
 <template>
   <div id="app">
     <div class="sticky">
-      <nav-scroll></nav-scroll>
-    </div>
-    <div class="sticky">
       <Nav></Nav>
     </div>
 
@@ -24,14 +21,24 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" id="solutions">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
           <Embed></Embed>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="gallery">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
           <Gallery></Gallery>
+        </div>
+      </div>
+      <div class="row" id="distribution">
+        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
+          <Distribution></Distribution>
+        </div>
+      </div>
+      <div class="row" id="distribution">
+        <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
+          <Maps></Maps>
         </div>
       </div>
 
@@ -55,10 +62,11 @@ import Footer from "./components/Footer.vue";
 import Nav from "./components/Nav.vue";
 import NavScroll from "./components/NavScroll.vue";
 import Contact from "./components/Contact.vue";
-import Feature2 from "./components/Feature2.vue";
+import Distribution from "./components/Distribution.vue";
 import Feature3 from "./components/Feature3.vue";
 import Feature4 from "./components/Feature4.vue";
 import Embed from "./components/Embed.vue";
+import Maps from "./components/Maps.vue";
 import Gallery from "./components/Gallery.vue";
 import Gallery3 from "./components/Gallery3.vue";
 
@@ -70,12 +78,13 @@ export default {
     Nav,
     NavScroll,
     Contact,
-    Feature2,
+    Distribution,
     Feature3,
     Feature4,
     Gallery,
     Gallery3,
-    Embed
+    Embed,
+    Maps
   },
   data() {
     return {

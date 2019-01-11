@@ -16,22 +16,22 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">
-              Home
+            <a class="nav-link scrollactive-item" href="#home">
+              Inicio
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link scrollactive-item" href="#gallery">Nuestros Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link scrollactive-item" href="#distribution">Distribución y Venta</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Contact</a>
+            <a class="nav-link scrollactive-item" href="#contact">Contactanos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scrollactive-item" href="#footer">Footer</a>
+            <a class="nav-link scrollactive-item" href="#maps">Mapas</a>
           </li>
         </ul>
       </div>
