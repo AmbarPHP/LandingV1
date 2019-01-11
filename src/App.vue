@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <div class="sticky">
+      <nav-scroll></nav-scroll>
+    </div>
+    <div class="sticky">
       <Nav></Nav>
     </div>
 
@@ -32,12 +35,12 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row" id="contact">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
           <Footer2></Footer2>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="footer">
         <div class="col-lg-12 h-100 text-center text-lg-right my-auto">
           <Footer></Footer>
         </div>
@@ -50,6 +53,7 @@
 import Footer2 from "./components/Footer2.vue";
 import Footer from "./components/Footer.vue";
 import Nav from "./components/Nav.vue";
+import NavScroll from "./components/NavScroll.vue";
 import Contact from "./components/Contact.vue";
 import Feature2 from "./components/Feature2.vue";
 import Feature3 from "./components/Feature3.vue";
@@ -64,6 +68,7 @@ export default {
     Footer2,
     Footer,
     Nav,
+    NavScroll,
     Contact,
     Feature2,
     Feature3,
